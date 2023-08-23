@@ -33,9 +33,11 @@ class RegisterController extends Controller
 
         $dto = LoginRequestDTO::fromArray(array_merge(
             $user->toArray(),
-            ['password' => Hash::make($data['password'])]
+            ['password' => $data['password']]
         ));
+
         $authUser = AuthService::attemptLoginUser($dto);
+
         return AuthService::sendResponse($authUser);
     }
 }
