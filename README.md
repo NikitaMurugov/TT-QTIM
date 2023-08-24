@@ -30,4 +30,4 @@ php artisan serve
 
 ## Остальное:
  Postman коллекция лежит в корне с названием:
-> TT-Qtim.postman_collection.json
+> <b>[TT-Qtim.postman_collection.json](TT-Qtim.postman_collection.json) </b>
