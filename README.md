@@ -22,8 +22,9 @@ php artisan serve
 ```
 
 ## Использованные сторонние библиотеки:
-
-> <b> laravel-validated-dto </b> - Использован для типизирования входящих и выходящих данных
+> <b>[wendelladriel/laravel-validated-dto](https://github.com/WendellAdriel/laravel-validated-dto)</b> - Использован для типизирования входящих и выходящих данных
+> 
+> <b>[phpstan/phpstan](https://github.com/phpstan/phpstan)</b> - Статанализатор
 
 Все остальное - Laravel
 
